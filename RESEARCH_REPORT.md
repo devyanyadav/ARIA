@@ -64,5 +64,3 @@ From the years 2018 to 2019 the dataset shifted to independently calculated fact
 sum to the happiness index. I acknowledge this methodological limitation in my study.
 Another limitation in this study is the exclusion of the region column from the main dataset, due to inconsistent availability across different years and non-uniform naming conventions.
 An attempt was made to incorporate weighted correlation values, Which involved a predicted happiness scores using all the correlation factors as weights. This proved to be extremely inconsistent and was later scrapped.
-
-## 8. References
