@@ -296,6 +296,3 @@ def fetch_data(country):
     profile = build_profile(country)
     means = df.mean(numeric_only=True)
     return means, happiness_score, profile
-
-
-infer("south korea")

@@ -5,7 +5,7 @@
 
 ## Abstract
 Understand how to establish a happy population is extremely important for individual countries. At the national level, it ensures maximum productivity, economic development and helps diagnose problems in a country. Today, one of the leading factors of low happiness is lack of understanding on how to keep a population happy, This study depicts what are the important factors that a country should focus on to improve their happiness score. On top of the analysis, a rule based system named ARIA has been designed that diagnoses the problems of the strengths and weakness of a country.
- ARIA outputs a conclusion after the chain of thinking, In which it provides its recommendations for the country. The analysis showed that for a country to be happy, the most important factor is gdp per capita which has a correlation measurement of 0.789 with happiness, it is followed up by health with 0.742  and social relations with 0.648. Further it also showed that rich countries enjoy more freedom, better health and better social relations while the poor mostly suffered in these factors. However, richer countries are know to have higher rates of corruption than poor countries. Moreover, this study finds that the global happiness trend remained flat over the years 2015 to 2019. At last, the study found no outlier that were both poor as in below 25th percentile and happy as in above 75th percentile. From this study it can be taken that governments should prioritise economic development, education, and basic services. 
+ARIA outputs a conclusion after the chain of thinking, In which it provides its recommendations for the country. The analysis showed that for a country to be happy, the most important factor is gdp per capita which has a correlation measurement of 0.789 with happiness, it is followed up by health with 0.742  and social relations with 0.648. Further it also showed that rich countries enjoy more freedom, better health and better social relations while the poor mostly suffered in these factors. However, richer countries are know to have higher rates of corruption than poor countries. Moreover, this study finds that the global happiness trend remained flat over the years 2015 to 2019. At last, the study found no outlier that were both poor as in below 25th percentile and happy as in above 75th percentile. From this study it can be taken that governments should prioritise economic development, education, and basic services. 
 
 ## 1. Introduction
 
@@ -39,9 +39,11 @@ Money does not buy happiness but it buys some factors that contribute to a happy
 
 Has the global population grown happier over the years ? It was found that the human population has not grown happier over the years and remained quite stable between 5.35 and 5.40. A minor dip was also noticed in the year 2017, where the happiness score fell by approximately 0.02.
 This was found by plotting a line graph representing the overall growth of the happiness score of the entire world over the years. 
+
 ### 3.4 Outlier Analysis
+
 When Attempted to find outliers who were below the 25th percentile of poor and above 75th percentile of happiness score, zero outliers were found. This indicates that no country with a low gdp is happy.  This strengthens my argument that gdp per capita is the most important factor to produce a happy population.
----
+
 
 ## 4. ARIA System 
 ARIA's system is entirely built upon the findings of the analysis. ARIA is a rule-based system  whose inference chain begins when it creates a profile of the country which gives each factor a score out of 5. ARIA has four built-in scenarios which are rich and happy, poor and sad, rich and sad and poor and happy. ARIA calculates the gdp per capita and happiness scores and compares it to the global average. After the scenario selection has occurred, ARIA uses these scores to traverse across the inference chain.
