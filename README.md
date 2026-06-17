@@ -96,3 +96,5 @@ Published by the Sustainable Development Solutions Network for the United Nation
 ## Research Report
 
 The full analysis, methodology, and findings are documented in [`RESEARCH_REPORT.md`](./RESEARCH_REPORT.md).
+
+Published Report : https://www.kaggle.com/code/devyanyadav/aria-happiness-data-pipeline-analysis
